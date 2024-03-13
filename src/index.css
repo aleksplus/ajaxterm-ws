@@ -1,0 +1,162 @@
+.ajaxterm .fitter {
+  display:inline-block
+}
+
+.ajaxterm pre.stat {
+  margin:0;
+  padding:4px;
+  display:block;
+  font-family:monospace;
+  white-space:pre;
+  background-color:#000;
+  border-top:1px solid #000;
+  color:#fff
+}
+
+.ajaxterm pre.stat span {
+  padding:0
+}
+
+.ajaxterm pre.stat span.on {
+  background-color:#080;
+  font-weight:700;
+  color:#fff;
+  cursor:pointer
+}
+
+.ajaxterm pre.stat span.off {
+  background-color:#888;
+  font-weight:700;
+  color:#fff;
+  cursor:pointer
+}
+
+.ajaxterm div.spacer {
+  padding:4px;
+  background-color:#000;
+  border-top:1px solid #fff
+}
+
+.ajaxterm div.spacer div.screen {
+  position:relative;
+  font-family:monospace
+}
+
+.ajaxterm div.spacer div.screen pre.term {
+  margin:0;
+  padding:0;
+  display:block;
+  white-space:pre;
+  color:#eee
+}
+
+.ajaxterm div.spacer div.screen pre.term.dead {
+  opacity:.5
+}
+
+.ajaxterm span.f0 {
+  color:#000
+}
+
+.ajaxterm span.f1 {
+  color:#b00
+}
+
+.ajaxterm span.f2 {
+  color:#0b0
+}
+
+.ajaxterm span.f3 {
+  color:#bb0
+}
+
+.ajaxterm span.f4 {
+  color:#00b
+}
+
+.ajaxterm span.f5 {
+  color:#b0b
+}
+
+.ajaxterm span.f6 {
+  color:#0bb
+}
+
+.ajaxterm span.f7 {
+  color:#bbb
+}
+
+.ajaxterm span.f8 {
+  color:#666
+}
+
+.ajaxterm span.f9 {
+  color:red;
+  font-weight:700
+}
+
+.ajaxterm span.f10 {
+  color:#0f0;
+  font-weight:700
+}
+
+.ajaxterm span.f11 {
+  color:#ff0;
+  font-weight:700
+}
+
+.ajaxterm span.f12 {
+  color:#00f;
+  font-weight:700
+}
+
+.ajaxterm span.f13 {
+  color:#f0f;
+  font-weight:700
+}
+
+.ajaxterm span.f14 {
+  color:#0ff;
+  font-weight:700
+}
+
+.ajaxterm span.f15 {
+  color:#fff;
+  font-weight:700
+}
+
+.ajaxterm span.b0 {
+  background-color:#000
+}
+
+.ajaxterm span.b1 {
+  background-color:#b00
+}
+
+.ajaxterm span.b2 {
+  background-color:#0b0
+}
+
+.ajaxterm span.b3 {
+  background-color:#bb0
+}
+
+.ajaxterm span.b4 {
+  background-color:#00b
+}
+
+.ajaxterm span.b5 {
+  background-color:#b0b
+}
+
+.ajaxterm span.b6 {
+  background-color:#0bb
+}
+
+.ajaxterm span.b7 {
+  background-color:#bbb
+}
+
+.ajaxterm span.cur {
+  background-color:#fff
+}

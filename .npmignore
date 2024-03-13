@@ -1,0 +1,9 @@
+/node_modules
+/example
+.vscode
+/.idea/
+src/
+.prettierrc
+.editorconfig
+webpack.config.js
+package-lock.json
