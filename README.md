@@ -1,7 +1,7 @@
 # DEPRECATED 
 Do not use in new projects.
 
-#### Fork of [@kohsuke/](https://github.com/kohsuke/ajaxterm4j) version, replaced ajax with WebSocket. 
+#### Fork of [@kohsuke/ajaxterm4j](https://github.com/kohsuke/ajaxterm4j) version, replaced ajax with WebSocket. 
 Original author Antony Lesuisse [Ajaxterm](http://antony.lesuisse.org/software/ajaxterm/HEADER.html).
 
 Ajaxterm was written by Antony Lesuisse (email: al AT udev.org), License Public Domain.

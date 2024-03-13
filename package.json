@@ -4,7 +4,7 @@
   "description": "DEPRECATED. WebSocket fork of Ajaxterm that allows connecting to remote SSH servers.",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "npx json -f package.json -I -e \"delete this.devDependencies\" || npx json -f package.json -I -e \"delete this.scripts\" || pm run build:prod",
+    "prepublishOnly": "npm run build:prod && npx json -f package.json -I -e \"delete this.devDependencies\" && npx json -f package.json -I -e \"delete this.scripts\"",
     "format": "npx prettier --write \"src/**/*.js\"",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
